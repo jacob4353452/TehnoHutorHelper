@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Технохутор - Навигация</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+        }
+        .nav-buttons {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+            max-width: 500px;
+            margin: 50px auto;
+        }
+        .nav-button {
+            padding: 20px;
+            font-size: 24px;
+            background: #f0f0f0;
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+        }
+        .nav-button:hover {
+            background: #e0e0e0;
+        }
+    </style>
+</head>
+<body>
+    <div class="nav-buttons">
+        <button class="nav-button" onclick="location.href='page1.html'">Москвич</button>
+        <button class="nav-button" onclick="location.href='page2.html'">Спутник</button>
+        <button class="nav-button" onclick="location.href='page3.html'">Жигули</button>
+    </div>
+</body>
+</html>
